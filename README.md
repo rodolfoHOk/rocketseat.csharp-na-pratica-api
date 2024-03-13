@@ -15,10 +15,12 @@
 
 - criar gitignore: dotnet new gitignore
 
-- criar projeto webapi: dotnet new webapi --use-controllers --output CloudStorageSolution.Api
+- criar projeto web api: dotnet new webapi --use-controllers --output CloudStorageSolution.Api
 
-- adicionar projeto webapi a solution: dotnet sln add CloudStorageSolution.Api
+- adicionar projeto web api a solution: dotnet sln add CloudStorageSolution.Api
 
-- rodar projeto webapi: dotnet run --project CloudStorageSolution.Api/CloudStorageSolution.Api.csproj
+- rodar projeto web api: dotnet run --project CloudStorageSolution.Api/CloudStorageSolution.Api.csproj
 
 - criar class library: dotnet new classlib --output CloudStorageSolution.Application
+
+- adicionar projeto class library a solution: dotnet sln add CloudStorageSolution.Application/CloudStorageSolution.Application.csproj
