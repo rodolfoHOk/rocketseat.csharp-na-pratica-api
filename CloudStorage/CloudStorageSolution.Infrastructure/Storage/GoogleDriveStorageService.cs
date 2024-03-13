@@ -6,8 +6,8 @@ namespace CloudStorageSolution.Infrastructure.Storage;
 
 public class GoogleDriveStorageService : IStorageService
 {
-  public string Upload(IFormFile file, User user)
-  {
-    
-  }
+    public string Upload(IFormFile file, User user)
+    {
+        throw new NotImplementedException();
+    }
 }

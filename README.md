@@ -23,7 +23,7 @@
 
 - criar class library: dotnet new classlib --output CloudStorageSolution.Application
 
-- adicionar projeto class library a solution: dotnet sln add CloudStorageSolution.Application/CloudStorageSolution.Application.csproj
+- adicionar class library a solution: dotnet sln add CloudStorageSolution.Application/CloudStorageSolution.Application.csproj
 
 - adicionar reference: dotnet add CloudStorageSolution.Api/CloudStorageSolution.Api.csproj reference CloudStorageSolution.Application/CloudStorageSolution.Application.csproj
 
@@ -31,8 +31,14 @@
 
 - criar class library: dotnet new classlib --output CloudStorageSolution.Infrastructure
 
+- adicionar class library a solution: dotnet sln add CloudStorageSolution.Infrastructure/CloudStorageSolution.Infrastructure.csproj
+
 - criar class library: dotnet new classlib --output CloudStorageSolution.Domain
+
+- adicionar class library a solution: dotnet sln add CloudStorageSolution.Domain/CloudStorageSolution.Domain.csproj
 
 - adicionar reference: dotnet add CloudStorageSolution.Application/CloudStorageSolution.Application.csproj reference CloudStorageSolution.Domain/CloudStorageSolution.Domain.csproj
 
 - adicionar reference: dotnet add CloudStorageSolution.Infrastructure/CloudStorageSolution.Infrastructure.csproj reference CloudStorageSolution.Domain/CloudStorageSolution.Domain.csproj
+
+#### 1:15:55
