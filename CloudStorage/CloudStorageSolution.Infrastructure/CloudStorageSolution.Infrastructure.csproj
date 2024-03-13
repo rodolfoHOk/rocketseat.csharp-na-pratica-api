@@ -11,10 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="File.TypeChecker" Version="4.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\CloudStorageSolution.Domain\CloudStorageSolution.Domain.csproj" />
   </ItemGroup>
 

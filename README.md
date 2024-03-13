@@ -25,6 +25,14 @@
 
 - adicionar projeto class library a solution: dotnet sln add CloudStorageSolution.Application/CloudStorageSolution.Application.csproj
 
-- adicionar reference para injeção de dependências: dotnet add CloudStorageSolution.Api/CloudStorageSolution.Api.csproj reference CloudStorageSolution.Application/CloudStorageSolution.Application.csproj
+- adicionar reference: dotnet add CloudStorageSolution.Api/CloudStorageSolution.Api.csproj reference CloudStorageSolution.Application/CloudStorageSolution.Application.csproj
 
 - adicionar nuget package: dotnet add CloudStorageSolution.Application package File.TypeChecker --version 4.0.0
+
+- criar class library: dotnet new classlib --output CloudStorageSolution.Infrastructure
+
+- criar class library: dotnet new classlib --output CloudStorageSolution.Domain
+
+- adicionar reference: dotnet add CloudStorageSolution.Application/CloudStorageSolution.Application.csproj reference CloudStorageSolution.Domain/CloudStorageSolution.Domain.csproj
+
+- adicionar reference: dotnet add CloudStorageSolution.Infrastructure/CloudStorageSolution.Infrastructure.csproj reference CloudStorageSolution.Domain/CloudStorageSolution.Domain.csproj
