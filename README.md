@@ -93,3 +93,17 @@
 - Selecionar tudo -> Continuar ->
 - Exchange authorization code for tokens ->
 - Copiar: access_token e refresh_token
+
+## Rodar
+
+### Requisitos
+
+- .NET 8.0 sdk and runtime instalados
+- conta no google
+- seguir etapas Google Cloud Console
+- seguir etapas OAuth 2.0 Playground
+
+### Etapas
+
+- renomear .env.example para .env e preencher de acordo
+- dotnet run --project CloudStorageSolution.Api/CloudStorageSolution.Api.csproj
